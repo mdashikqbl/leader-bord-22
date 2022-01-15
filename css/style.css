@@ -1,0 +1,246 @@
+/*----------|--google fontst--|------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&family=Oswald:wght@300;400&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&family=The+Nautigal:wght@400;700&display=swap');
+/*----------|--google fontst--|------------*/
+
+/*----------|--common css start--|------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+a, a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+	border-radius: 5px;
+}
+.full-width{
+    width: 100%;
+    background-color:  #562EFF;
+    height: 94px;
+}
+/*----------|--common css end--|------------*/
+
+/*----------|--navabr part start--|------------*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.navbar .navbar-right a{
+    margin-right: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    line-height: 94px;
+
+}
+.navbar-left a img{
+   height: 50px;
+   width: 50px;
+   object-fit: certain;
+}
+.navbar-left{
+    margin-top: 25px;
+}
+.navbar-left  span{
+   color: #fff;
+   font-size: 24px;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+/*----------|--navbar part end--|------------*/
+
+/*----------|--banner part start--|------------*/
+#banner{
+    background: #E5E5E5;
+    padding-top: 33px;
+}
+#banner .container{
+    background-color: #fff;
+}
+#banner .container h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #562EFF;
+	text-transform: capitalize;
+	padding: 33px 0px;
+	margin-left: 120px;
+}
+.banner-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns:1fr 1fr 1fr; */
+    position: relative;
+}
+.banner-player {
+	display: flex;
+	align-items: center;
+	padding-bottom: 29px;
+	justify-content: center;
+}
+.banner-player img{
+    height: 56px;
+    width: 65px;
+    object-fit: contain;
+    padding-right: 5px;
+}
+.banner-player h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.banner-players::after {
+	content: '';
+	position: absolute;
+	width: 967px;
+	height: 1px;
+	background-color: #d1d1d1;
+	top: 177px;
+	left: 121px;
+}
+.bloger-items {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding-bottom: 42px;
+}
+.bloger-img-details img{
+   width: 177px;
+   height: 117px;
+   object-fit: cover;
+  margin-right: 16px;
+   
+}
+.bloger-img-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.bloger-img-details p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	color: #000;
+	text-transform: capitalize;
+	line-height: 34px;
+}
+.bloger-img-details small,span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.bloger-img-details small{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #562EFF;
+}
+
+/*----------|--banner part end--|------------*/
+
+/*----------|--latest part start--|------------*/
+#courses{
+    background: #E5E5E5;
+    padding-top: 33px;
+}
+.courses-img-para h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 20.03px;
+	color: #1E1E1E;
+	text-transform: capitalize;
+	padding-top: 20px;
+	padding-bottom: 5px;
+    line-height: 30px;
+}
+.courses-img-para p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #ED6B4F;
+	text-transform: capitalize;
+	padding: 5px 0px;
+}
+.courses-img-para img{
+    width: 224px;
+    height: 104px;
+    object-fit: cover;
+}
+.review-star i{
+    color: orange;
+}
+.courses-img-para .rating{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #A2A2A2;
+}
+.courses-img-para small{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #A2A2A2;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color:rgba(237, 108, 79, 0.2);
+}
+.courses-img-para small, i{
+    color: #f5461b;
+}
+.courses-img-review{
+    display: flex;
+}
+.courses-flex {
+	display: flex;
+	justify-content: center;
+}
+.courses-img-para {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #000;
+	padding: 18px;
+	border-radius: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 20px 45px;
+}
+.courses-items {
+	background-color: #fff;
+	padding-bottom: 30px;
+    border-radius: 5px;
+}
+#courses .courses-items h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #562EFF;
+	text-transform: capitalize;
+	padding-top: 23px;
+	padding-bottom: 11px;
+	margin-left: 120px;
+}
+.courses-img-review {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -5px;
+}
+/*----------|--latest part end--|------------*/
+
+
